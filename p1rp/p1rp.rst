@@ -170,7 +170,7 @@ Augmented Reality and brain-computer interfaces.
 *d.2*  Possible Research Questions
 ====================================
 
-* Do people actually more engaged in communication with newly adopted technology
+* Are people actually more engaged in communication with newly adopted technology
   ?
 
 * How to prevent personal privacy leak with brain-computer interface?
