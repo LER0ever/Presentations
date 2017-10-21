@@ -1,14 +1,14 @@
-:title: Paper 1 Reading Presentation
+:title: Paper 1 Presentation
 :data-transition-duration: 1500
-:css: p1rp.css
+:css: p1p.css
 
-Presentation source for ESL 118 P1 reading
+Presentation source for ESL 118 Paper 1
 
 Uses hovercraft to generate inpress.js slides
 
 ----
 
-A short presentation on
+Paper 1 Presentation
 
 Technology
 ============
@@ -18,7 +18,7 @@ Technology
 Communication
 ---------------------------------
 
-*Presented by* `Everette Rong <https://yirong.ml/contact>`_
+*Presented by* `Everette Rong <https://rongyi.blog/contact>`_
 
 ----
 
