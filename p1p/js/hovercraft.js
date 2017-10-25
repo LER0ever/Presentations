@@ -53,6 +53,9 @@ if (annyang) {
         },
         'previous page': function() {
             impress().prev();
+        },
+        'testing voice control': function() {
+            alert("Testing Passed");
         }
     };
 
