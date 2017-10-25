@@ -1,22 +1,21 @@
 :title: Paper 1 Presentation
 :data-transition-duration: 1500
 :css: p1p.css
+:slide-numbers: true
 
 Presentation source for ESL 118 Paper 1
-
-Uses hovercraft to generate inpress.js slides
 
 ----
 
 Paper 1 Presentation
 
-Technology
-============
-&
+New Communication Media
+========================
+VS
 ===
 
-Communication
----------------------------------
+Face-to-face conversation
+==========================
 
 *Presented by* `Everette Rong <https://rongyi.blog/contact>`_
 
@@ -27,18 +26,45 @@ Communication
 :data-z: r-200
 :data-scale: 0.1
 
-Articles I Read
-========================
+Background
+-------------------
 
-1. **13a**: An Artificial Intelligence Developed Its Own Non-Human Language
+.. raw:: html
 
-2. **13b**: The Future of Human Communication: How Artificial Intelligence Will Transform the Way We Communicate
-
-3. **13c**: Facebook AI Creates Its Own Language In Creepy Preview Of Our Potential Future
-
-4. **13d**: What is the future of communication?
-
-5. **13e**: A Computational Model of Culture-Specific Conversational Behavior (`scholarly`)
+    <table style="width:100%">
+      <tr>
+        <th rowspan="12" style="width:30%"><img src="./face-to-face.png"></img></th>
+        <th rowspan="4"><span class="fa-phone fa-3x"></span></th>
+        <th rowspan="3"><span class="fa-wechat fa-2x"></span></th>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td rowspan="3"><span class="fa-facebook fa-2x"></span></td>
+      </tr>
+      <tr>
+        <td rowspan="4"><span class="fa-comments-o fa-3x"></span></td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td rowspan="3"><span class="fa-skype fa-2x"></span></td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+        <td rowspan="4"><span class="fa-mobile fa-3x"></span></td>
+      </tr>
+      <tr>
+        <td rowspan="3"><span class="fa-instagram fa-2x"></span></td>
+      </tr>
+      <tr>
+      </tr>
+      <tr>
+      </tr>
+    </table>
 
 ----
 
@@ -48,14 +74,12 @@ Articles I Read
 :data-y: r0
 :data-z: r3000
 
-*a.1*  AI Developed Its Own Non-Human Language
+Main idea
 ==============================================
 
-Two AI bot that are trained to negotiate at facebook eventually create their 
-own language to communicate after they have chatted with each other.
-
-* Nothing to do with terminators
-* Much potential for future
+These new ways of communication are designed to make communication more convenient,
+but they sometimes reduces the quality and effectiveness of communication, and they
+cannot eventually replace traditional face-to-face communication.
 
 ----
 
@@ -63,16 +87,14 @@ own language to communicate after they have chatted with each other.
 :data-y: r1750
 :data-z: r3500
 
-*a.2*  Possible Research Questions
-=========================================
+Modern Communication Media
+----------------------------
+Benefits?
 
-* Positive
-
-    * How can Machine Learning, or more specifically chatting bot, help human rethink the way of communication ?
-
-* Negative
-
-    * How to prevent machine learning from unexpected results under unsupervised learning ?
+.. image:: modern-communication-media.jpg
+   :height: 517px
+   :width: 600px
+   :scale: 100 %
 
 ----
 
@@ -80,10 +102,14 @@ own language to communicate after they have chatted with each other.
 :data-z: r3500
 :data-rotate: 90
 
-*b.1*  The Future of Human Communication: How Artificial Intelligence Will Transform the Way We Communicate
---------------------------------------------------------------------------------------------------------------
+What about face-to-face conversation?
+-------------------------------------
 
-.
+.. image:: face-to-face-1.jpg
+   :height: 558px
+   :width: 666px
+   :scale: 100 %
+
 
 ----
 
@@ -91,34 +117,26 @@ own language to communicate after they have chatted with each other.
 :data-y: r500
 :data-scale: 0.1
 
-*b.2*  Main idea of 13b
-=========================
+1. Synchronizes your brain with others
+-------------------------------------------
 
-Instead of causing job loss, AI actually makes people's job more easier.
-
-We can use AI to help business leaders improve their communication skills.
-
-How? By simulating the audience and giving you feedback.
-
-* Objective judgement
-
-* Comprehensive feedback
-
-Future? Artificial Intelligence Guides Improvements
+.. image:: face-to-face-2.jpg
+   :height: 382px
+   :width: 500px
+   :scale: 100 %
 
 ----
 
 :data-x: r-800
 :data-scale: 1
 
-*b.3*  Possible Research Question
-=================================
+2. Creativity & quality of teamwork
+------------------------------------------------
 
-* Will time be the only factor for people's performance if AI-aided improving is
-  widely adopted?
-
-* How will machine learning help people make improvement in efficiency of daily
-  work?
+.. image:: face-to-face-3.jpg
+   :height: 400px
+   :width: 698px
+   :scale: 100 %
 
 ----
 
@@ -127,24 +145,24 @@ Future? Artificial Intelligence Guides Improvements
 :data-z: r2500
 :data-rotate-x: -180
 
-*c.1*  Facebook AI Creates Its Own Language In Creepy Preview Of Our Potential Future
+Problems for Phone, Wechat, Skype, etc.?
 ======================================================================================
 
-Artificial Intelligence is much better at dealing with patterns of massive data.
-Although they may be a potential threat to mankind, we should still proceed with
-caution and closely monitor the progress.
+.. raw::html
+
+* Quality
+* Effectiveness & Efficiency
 
 ----
 
 
-*c.2*  Possible Research Questions
+Quality compromised
 ===================================
 
-* What's the exact situation should we consider machine learning is an actual
-  threat to human race?
-
-* Who should take the responsibility if an AI goes out of control? The one who
-  build it or the user? (possibly speculative)
+.. image:: phubbing.png
+   :height: 642px
+   :width: 720px
+   :scale: 100 %
 
 ----
 
@@ -153,12 +171,10 @@ caution and closely monitor the progress.
 :data-z: r0
 :data-rotate: r90
 
-*d.1*  What is the future of communication?
+Place Holder
 ===========================================
 
-Smart phones and video conferencing have already made great changes on how
-people communicate. And more changes will take place in the future, including
-Augmented Reality and brain-computer interfaces.
+Place Holder
 
 ----
 
@@ -167,29 +183,20 @@ Augmented Reality and brain-computer interfaces.
 :data-z: r-3000
 :data-rotate: r0
 
-*d.2*  Possible Research Questions
+Place Holder
 ====================================
 
-* Are people actually more engaged in communication with newly adopted technology
-  ?
-
-* How to prevent personal privacy leak with brain-computer interface?
-  (possibly too bland)
+Place Holder
 
 ----
 
 :data-rotate: r180
 :data-scale: 0.3
 
-*e.1*  A Computational Model of Culture-Specific Conversational Behavior
+Place Holder
 =========================================================================
 
-Research is conducted to study a model that simulates cultural differences
-and whether native speakers can tell the differences between simulations of
-different culture parameters. The results reveals that people are able to
-distinguish between models generated with difference culture parameters,
-suggesting that culture-specific behaviors is noticable for both people who
-share the same culture and who do not.
+Place Holder
 
 ----
 
@@ -198,12 +205,10 @@ share the same culture and who do not.
 :data-rotate: r0
 :data-scale: 1
 
-*e.2*  Possible Research Questions
+Place Holder
 ======================================
 
-* Can a virtual agent that simulates the cultural difference help people
-  communicate better with people under different cultural backgrounds?
-  And how?
+Place Holder
 
 ----
 
@@ -215,6 +220,11 @@ share the same culture and who do not.
 
 **Thank You!**
 ===============
+
+.. image:: question-and-answer.svg
+   :height: 200px
+   :width: 200 px
+   :scale: 100 %
 
 .
 ---
