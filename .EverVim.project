@@ -10,5 +10,5 @@
 " Dispatch
 "
 "autocmd FileType rst let b:dispatch = 'hovercraft'
-autocmd FileType rst let b:dispatch = 'hovercraft ' . expand("%") . " ./build/" . substitute(expand("%:t"), ".rst", "", "g")
+autocmd FileType rst let b:dispatch = 'hovercraft' . ' -t template ' . expand("%") . " ./build/" . substitute(expand("%:t"), ".rst", "", "g")
 

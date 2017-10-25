@@ -31,34 +31,34 @@ Background
 
 .. raw:: html
 
-    <table style="width:100%">
+    <table style="width:100%;height:70vh;">
       <tr>
         <th rowspan="12" style="width:30%"><img src="./face-to-face.png"></img></th>
-        <th rowspan="4"><span class="fa-phone fa-3x"></span></th>
-        <th rowspan="3"><span class="fa-wechat fa-2x"></span></th>
+        <th rowspan="4" style="width:40%"><img src="./fa-phone.png" width="15%"></img></th>
+        <th rowspan="3" style="width:30%"><img src="./fa-wechat.png" width="15%"></img></th>
       </tr>
       <tr>
       </tr>
       <tr>
       </tr>
       <tr>
-        <td rowspan="3"><span class="fa-facebook fa-2x"></span></td>
+        <td rowspan="3"><img src="./fa-facebook.png" width="15%"></img></td>
       </tr>
       <tr>
-        <td rowspan="4"><span class="fa-comments-o fa-3x"></span></td>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-        <td rowspan="3"><span class="fa-skype fa-2x"></span></td>
+        <th rowspan="4"><img src="./fa-comments-o.png" width="15%"></img></th>
       </tr>
       <tr>
       </tr>
       <tr>
-        <td rowspan="4"><span class="fa-mobile fa-3x"></span></td>
+        <td rowspan="3"><img src="./fa-skype.png" width="15%"></img></td>
       </tr>
       <tr>
-        <td rowspan="3"><span class="fa-instagram fa-2x"></span></td>
+      </tr>
+      <tr>
+        <th rowspan="4"><img src="./fa-mobile.png" width="15%"></img></th>
+      </tr>
+      <tr>
+        <td rowspan="3"><img src="./fa-instagram.png" width="15%"></img></td>
       </tr>
       <tr>
       </tr>
