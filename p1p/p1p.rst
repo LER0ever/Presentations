@@ -9,9 +9,9 @@ Presentation source for ESL 118 Paper 1
 
 Paper 1 Presentation
 
-New Communication Media
-========================
-VS
+Modern Communication Media
+===========================
+vs
 ===
 
 Face-to-face conversation
@@ -77,9 +77,21 @@ Background
 Main idea
 ==============================================
 
-These new ways of communication are designed to make communication more convenient,
-but they sometimes reduces the quality and effectiveness of communication, and they
-cannot eventually replace traditional face-to-face communication.
+.. raw:: html
+
+    <ul style="padding-left: 20vw;">
+        <li>Modern Communication Media <img src="./thumb-down.png" height="30px"></img></li>
+        <ul>
+            <li>Convenience : <img src="./thumb-up.png" height="30px"></img></li>
+            <li>Problems : <img src="./thumb-down.png" height="30px"></img></li>
+            <ul>
+                <li>Quality ↓</li>
+                <li>Efficiency ↓</li>
+                <li>Effectiveness  ↓</li>
+            </ul>
+        </ul>
+        <li>Face-to-face conversation <img src="./thumb-up.png" height="30px"></img></li>
+    </ul>
 
 ----
 
@@ -102,6 +114,56 @@ Benefits?
 :data-z: r3500
 :data-rotate: 90
 
+Problems for Phone, Wechat, Skype, etc.?
+======================================================================================
+
+* Quality
+* Effectiveness & Efficiency
+
+----
+
+:data-x: r0
+:data-y: r500
+:data-scale: 0.1
+
+Quality compromised
+===================================
+
+.. image:: phubbing.png
+   :height: 642px
+   :width: 720px
+   :scale: 100 %
+
+----
+
+:data-x: r-800
+:data-scale: 1
+
+Quality & Efficiency ↓
+===========================================
+
+.. image:: group-chat.png
+   :height: 594px
+   :width: 800px
+   :scale: 100 %
+
+----
+
+:data-y: r-800
+:data-x: r500
+:data-z: r2500
+:data-rotate-x: -180
+
+Effectiveness ↓
+====================================
+
+.. image:: emoji.png
+   :height: 522px
+   :width: 800px
+   :scale: 100 %
+
+----
+
 What about face-to-face conversation?
 -------------------------------------
 
@@ -114,8 +176,10 @@ What about face-to-face conversation?
 ----
 
 :data-x: r0
-:data-y: r500
-:data-scale: 0.1
+:data-y: r-7000
+:data-z: r0
+:data-rotate: r90
+
 
 1. Synchronizes your brain with others
 -------------------------------------------
@@ -127,8 +191,10 @@ What about face-to-face conversation?
 
 ----
 
-:data-x: r-800
-:data-scale: 1
+:data-x: r0
+:data-y: r-800
+:data-z: r-3000
+:data-rotate: r0
 
 2. Creativity & quality of teamwork
 ------------------------------------------------
@@ -140,63 +206,19 @@ What about face-to-face conversation?
 
 ----
 
-:data-y: r-800
-:data-x: r500
-:data-z: r2500
-:data-rotate-x: -180
-
-Problems for Phone, Wechat, Skype, etc.?
-======================================================================================
-
-.. raw::html
-
-* Quality
-* Effectiveness & Efficiency
-
-----
-
-
-Quality compromised
-===================================
-
-.. image:: phubbing.png
-   :height: 642px
-   :width: 720px
-   :scale: 100 %
-
-----
-
-:data-x: r0
-:data-y: r-7000
-:data-z: r0
-:data-rotate: r90
-
-Place Holder
-===========================================
-
-Place Holder
-
-----
-
-:data-x: r0
-:data-y: r-800
-:data-z: r-3000
-:data-rotate: r0
-
-Place Holder
-====================================
-
-Place Holder
-
-----
-
 :data-rotate: r180
 :data-scale: 0.3
 
-Place Holder
+F2F is irreplaceable
 =========================================================================
 
-Place Holder
+.. raw:: html
+
+    <hr />
+
+Try more Face-to-face conversation
+
+Use phones/SNS on demand
 
 ----
 
@@ -205,10 +227,12 @@ Place Holder
 :data-rotate: r0
 :data-scale: 1
 
-Place Holder
+Conclusion
 ======================================
 
-Place Holder
+* Modern communication media brings much convenience in term of communication
+* But they have problems
+* We should still maintain the sufficient amount of F2F conversation
 
 ----
 
@@ -216,24 +240,22 @@ Place Holder
 :data-y: -3500
 :data-z: 0
 :data-rotate-x: r0
-:data-scale: 0.1
+:data-scale: 0.5
 
 **Thank You!**
 ===============
 
 .. image:: question-and-answer.svg
-   :height: 200px
-   :width: 200 px
+   :height: 300px
+   :width: 300 px
    :scale: 100 %
 
-.
----
-.
-....
-.
-^^^
-Made with EverVim, HoverCraft and Impress
-""""""""""""""""""""""""""""""""""""""""""
-by Everette
-""""""""""""""
+.. raw:: html
+
+    <p style="font-size: 50%;">
+    . <br /><br />
+    <a href="https://github.com/LER0ever/Presentations" target="_blank">Made</a> with EverVim, HoverCraft and Impress <br /><br />
+    by Everette <br /><br />
+    </p>
+
 

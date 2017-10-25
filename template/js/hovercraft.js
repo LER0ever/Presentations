@@ -54,7 +54,10 @@ if (annyang) {
         'previous page': function() {
             impress().prev();
         },
-        'testing voice control': function() {
+        'timer start': function() {
+            TimerStart();
+        },
+        'testing voice': function() {
             alert("Testing Passed");
         }
     };
