@@ -45,6 +45,22 @@ if (impressConsole) {
     }
 }
 
+// Voice Control
+if (annyang) {
+    var commands = {
+        'next page': function() {
+            impress().next();
+        },
+        'previous page': function() {
+            impress().prev();
+        }
+    };
+
+    annyang.addCommands(commands);
+
+    annyang.start();
+}
+
 // Function updating the slide number counter
 function update_slide_number(evt)
 {
