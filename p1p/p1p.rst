@@ -114,11 +114,15 @@ Benefits?
 :data-z: r3500
 :data-rotate: 90
 
-Problems for Phone, Wechat, Skype, etc.?
-======================================================================================
+Problems?
+=============================================
 
-* Quality
-* Effectiveness & Efficiency
+.. raw:: html
+
+    <ul style="padding-left: 20vw;">
+        <li>Quality</li>
+        <li>Effectiveness & Efficiency</li>
+    </ul>
 
 ----
 
@@ -231,7 +235,7 @@ Conclusion
 ======================================
 
 * Modern communication media brings much convenience in term of communication
-* But they have problems
+* **But they still have problems**
 * We should still maintain the sufficient amount of F2F conversation
 
 ----
