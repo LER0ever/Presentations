@@ -11,4 +11,4 @@
 "
 "autocmd FileType rst let b:dispatch = 'hovercraft'
 autocmd FileType rst let b:dispatch = 'hovercraft' . ' -t template ' . expand("%") . " ./build/" . substitute(expand("%:t"), ".rst", "", "g")
-
+autocmd FileType scss let b:dispatch = 'sass template/scss/full.scss template/css/style.css'
