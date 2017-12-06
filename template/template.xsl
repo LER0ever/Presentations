@@ -119,6 +119,7 @@
                         <xsl:attribute name="class">hide</xsl:attribute>
                     </xsl:if>
                     <table>
+                        <tr><th>Voice Control</th><td>Enabled</td></tr>
                         <tr><th>Space</th><td>Forward</td></tr>
                         <tr><th>Right, Down, Page Down</th><td>Next slide</td></tr>
                         <tr><th>Left, Up, Page Up</th><td>Previous slide</td></tr>

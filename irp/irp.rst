@@ -1,24 +1,34 @@
-:title: Paper 1 Reading Presentation
+:title: L.E.R IRP Presentation
 :data-transition-duration: 1500
 :css: irp.css
+:js: irp.js
 
-Presentation source for ESL 118 P1 reading
+Presentation source for ESL 118 Independent Research Paper
 
-Uses hovercraft to generate inpress.js slides
+Powered by hovercraft, EverVim, and Impress
 
 ----
 
-A short presentation on
+.. raw:: html
 
-Technology
-============
-&
-===
+   <div class="wrap">
+       <div class="alignright size-50">
+          <img class="whitelogo" src="./images/note-taking-pen.png" alt="Note Taking Logo" height="100" />
+          <img class="whitelogo" src="./images/note-taking-ipad.png" alt="Note Taking Logo" height="100" />
+          <br />
+          <h1>vs</h1>
+          <br />
+          <img class="whitelogo" src="./images/speech-recognition.png" alt="Speech Recognition" />
+        </div>
+        <h1 class="number">Note Taking</h1>
+        <h4>Presented by Everette Rong</h4>
+        <h1>&nbsp;</h1>
+        <p class="text-intro">A Technological Approach towards a More Effective Way of Note Taking</p>
+    </div>
 
-Communication
----------------------------------
+.. note::
 
-*Presented by* `Everette Rong <https://yirong.ml/contact>`_
+    Testing the presenter's console. Nobody should see this.
 
 ----
 
@@ -27,18 +37,14 @@ Communication
 :data-z: r-200
 :data-scale: 0.1
 
-Articles I Read
-========================
+.. raw:: html
 
-1. **13a**: An Artificial Intelligence Developed Its Own Non-Human Language
+    <h1>Background</h1>
+    <h6>in numbers</h>
 
-2. **13b**: The Future of Human Communication: How Artificial Intelligence Will Transform the Way We Communicate
+.. note::
 
-3. **13c**: Facebook AI Creates Its Own Language In Creepy Preview Of Our Potential Future
-
-4. **13d**: What is the future of communication?
-
-5. **13e**: A Computational Model of Culture-Specific Conversational Behavior (`scholarly`)
+    Background
 
 ----
 
@@ -48,14 +54,20 @@ Articles I Read
 :data-y: r0
 :data-z: r3000
 
-*a.1*  AI Developed Its Own Non-Human Language
-==============================================
+..  raw:: html
 
-Two AI bot that are trained to negotiate at facebook eventually create their 
-own language to communicate after they have chatted with each other.
-
-* Nothing to do with terminators
-* Much potential for future
+      <div class="cta">
+        <div class="number">
+          <p>
+            <span>99%</span>
+          </p>
+        </div>
+        <!--end .number -->
+        <div class="benefit">
+          <h3>College students take notes in lecture.</h3>
+        </div>
+        <!--end .benefit -->
+      </div>
 
 ----
 
@@ -63,16 +75,22 @@ own language to communicate after they have chatted with each other.
 :data-y: r1750
 :data-z: r3500
 
-*a.2*  Possible Research Questions
-=========================================
+.. raw:: html
 
-* Positive
-
-    * How can Machine Learning, or more specifically chatting bot, help human rethink the way of communication ?
-
-* Negative
-
-    * How to prevent machine learning from unexpected results under unsupervised learning ?
+          <div class="cta">
+            <div class="number">
+              <p>
+                <span>0
+                  <sup>^</sup>
+                </span>
+              </p>
+            </div>
+            <!--end .number -->
+            <div class="benefit">
+              <h3>Colleges offer to teach students how to take notes effectively.</h3>
+            </div>
+            <!--end .benefit -->
+          </div>
 
 ----
 
@@ -80,10 +98,31 @@ own language to communicate after they have chatted with each other.
 :data-z: r3500
 :data-rotate: 90
 
-*b.1*  The Future of Human Communication: How Artificial Intelligence Will Transform the Way We Communicate
---------------------------------------------------------------------------------------------------------------
+.. raw:: html
 
-.
+    <div class="wrap">
+        <div class="card-50">
+          <figure>
+            <img src="./images/note-taking-longhand.jpg" alt="Note Taking Longhand">
+            <figcaption>
+              <a href="https://rongyi.blog" title="Longhand Note Taking">
+                <svg class="fa-camera">
+                  <use xlink:href="#fa-camera"></use>
+                </svg>
+                Longhand Note Taking
+              </a>
+            </figcaption>
+          </figure>
+          <!-- end figure-->
+          <div class="flex-content">
+            <h2>
+              Writing notes by hand
+            </h2>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+        <!-- end .card-50-->
+    </div>
 
 ----
 
@@ -91,34 +130,60 @@ own language to communicate after they have chatted with each other.
 :data-y: r500
 :data-scale: 0.1
 
-*b.2*  Main idea of 13b
-=========================
+.. raw:: html
 
-Instead of causing job loss, AI actually makes people's job more easier.
-
-We can use AI to help business leaders improve their communication skills.
-
-How? By simulating the audience and giving you feedback.
-
-* Objective judgement
-
-* Comprehensive feedback
-
-Future? Artificial Intelligence Guides Improvements
+    <div class="wrap">
+        <div class="card-50">
+          <div class="flex-content">
+            <h2>
+              Typing notes on laptop
+            </h2>
+          </div>
+          <!-- end .flex-content-->
+          <figure>
+            <img src="./images/note-taking-computer.jpg" alt="Note Taking computer">
+            <figcaption>
+              <a href="https://rongyi.blog" title="Computer Note Taking">
+                <svg class="fa-camera">
+                  <use xlink:href="#fa-camera"></use>
+                </svg>
+                Digital Note Taking
+              </a>
+            </figcaption>
+          </figure>
+          <!-- end figure-->
+        </div>
+        <!-- end .card-50-->
+    </div>
 
 ----
 
 :data-x: r-800
 :data-scale: 1
 
-*b.3*  Possible Research Question
-=================================
+.. raw:: html
 
-* Will time be the only factor for people's performance if AI-aided improving is
-  widely adopted?
-
-* How will machine learning help people make improvement in efficiency of daily
-  work?
+          <h2 align="middle">Computer vs Longhand</h2>
+          <hr>
+          <div class="cta">
+            <div class="number">
+              <p>
+                <span>
+                  60%
+                </span>
+              </p>
+            </div>
+            <!--end .number -->
+            <div class="number">
+              <p>
+                <span>
+                  40%
+                </span>
+              </p>
+            </div>
+            <!--end .benefit -->
+          </div>
+          <!--end .cta -->
 
 ----
 
@@ -127,24 +192,77 @@ Future? Artificial Intelligence Guides Improvements
 :data-z: r2500
 :data-rotate-x: -180
 
-*c.1*  Facebook AI Creates Its Own Language In Creepy Preview Of Our Potential Future
-======================================================================================
+.. raw:: html
 
-Artificial Intelligence is much better at dealing with patterns of massive data.
-Although they may be a potential threat to mankind, we should still proceed with
-caution and closely monitor the progress.
+          <div class="content-center">
+            <p>Is note taking</p>
+            <h2 class="text-landing">Necessary?</h2>
+          </div>
+          <hr>
+          <ul class="flexblock specs">
+            <li>
+              <div class="content-center">
+                <h1>
+                  Improves Learning
+                </h1>
+                Crawford (1925)
+              </div>
+            </li>
+            <li>
+              <div class="content-center">
+                <h1>
+                  Helps Reviewing
+                </h1>
+                Fisher &amp; Harris (1973)
+              </div>
+            </li>
+          </ul>
 
 ----
 
+.. raw:: html
 
-*c.2*  Possible Research Questions
-===================================
-
-* What's the exact situation should we consider machine learning is an actual
-  threat to human race?
-
-* Who should take the responsibility if an AI goes out of control? The one who
-  build it or the user? (possibly speculative)
+        <section class="bg-apple">
+          <h1 class="content-center">Problems</h1>
+          <h2>Longhand</h2>
+          <ul class="flexblock features">
+            <li>
+              <div>
+                <h2>
+                  Too Slow
+                </h2>
+                wasted time, incomplete notes.
+              </div>
+            </li>
+            <li>
+              <div>
+                <h2>
+                  Not Searchable
+                </h2>
+                Hard to locate previous notes.
+              </div>
+            </li>
+          </ul>
+          <h2>Typing</h2>
+          <ul class="flexblock features">
+            <li>
+              <div>
+                <h2>
+                  Distracting
+                </h2>
+                Surfing, chatting, gaming
+              </div>
+            </li>
+            <li>
+              <div>
+                <h2>
+                  Inefficient
+                </h2>
+                compared to writing notes
+              </div>
+            </li>
+          </ul>
+        </section>
 
 ----
 
@@ -153,12 +271,28 @@ caution and closely monitor the progress.
 :data-z: r0
 :data-rotate: r90
 
-*d.1*  What is the future of communication?
-===========================================
+.. raw:: html
 
-Smart phones and video conferencing have already made great changes on how
-people communicate. And more changes will take place in the future, including
-Augmented Reality and brain-computer interfaces.
+          <h3>3 Main Factors Affecting Note Taking Performance</h3>
+          <hr>
+          <div class="bg-transparent shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>Selective Filtering Process</h2>
+                <p>Filter out the unimportant, pick the part worth taking down</p>
+              </li>
+              <li>
+                <h2>Fraction of lecture spent on irrelevant things</h2>
+                <p>
+                  Time spent on writing notes, surfing the web, or anything other than listening to the professor
+                </p>
+              </li>
+              <li>
+                <h2>Amount of notes for later review</h2>
+                <p></p>
+              </li>
+            </ul>
+          </div>
 
 ----
 
@@ -216,14 +350,7 @@ share the same culture and who do not.
 **Thank You!**
 ===============
 
-.
----
-.
-....
-.
-^^^
-Made with EverVim, HoverCraft and Impress
-""""""""""""""""""""""""""""""""""""""""""
-by Everette
-""""""""""""""
+.. raw:: html
 
+   <h5>Made with Impress.js</h5>
+   <h6>by Everette</h6>
