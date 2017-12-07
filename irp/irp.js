@@ -18,7 +18,7 @@ if (annyang) {
             if (currentstep.id == "frontpage") {
                 impress().next();
             }
-        }
+        },
         'united states': function() {
             if (currentstep.id == "background") {
                 impress().next();
