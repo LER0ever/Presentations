@@ -113,6 +113,7 @@
                 <div id="slide-number" class="slide-number">
                     1
                 </div>
+                <div id="speech-result" class="speech-result"></div>
 
                 <div id="hovercraft-help">
                     <xsl:if test="/document/@skip-help">

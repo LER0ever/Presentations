@@ -9,6 +9,8 @@ Powered by hovercraft, EverVim, and Impress
 
 ----
 
+:id: frontpage
+
 .. raw:: html
 
    <div class="wrap">
@@ -28,7 +30,7 @@ Powered by hovercraft, EverVim, and Impress
 
 .. note::
 
-    Testing the presenter's console. Nobody should see this.
+    Testing the presenter's console. Nobody should see this. Trigger: [first of all]
 
 ----
 
@@ -36,6 +38,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-y: r0
 :data-z: r-200
 :data-scale: 0.1
+:id: background
 
 .. raw:: html
 
@@ -44,7 +47,7 @@ Powered by hovercraft, EverVim, and Impress
 
 .. note::
 
-    Background
+    Background [united states]
 
 ----
 
@@ -53,6 +56,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-x: r-2500
 :data-y: r0
 :data-z: r3000
+:id: bg-99
 
 ..  raw:: html
 
@@ -74,6 +78,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-x: r-3500
 :data-y: r1750
 :data-z: r3500
+:id: bg-0
 
 .. raw:: html
 
@@ -97,6 +102,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-y: r1750
 :data-z: r3500
 :data-rotate: 90
+:id: by-hand
 
 .. raw:: html
 
@@ -266,6 +272,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-y: r-7000
 :data-z: r0
 :data-rotate: r90
+:id: trifecta
 
 .. raw:: html
 

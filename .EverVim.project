@@ -12,3 +12,6 @@
 "autocmd FileType rst let b:dispatch = 'hovercraft'
 autocmd FileType rst let b:dispatch = 'hovercraft' . ' -t template ' . expand("%") . " ./build/" . substitute(expand("%:t"), ".rst", "", "g")
 autocmd FileType scss let b:dispatch = 'sass template/scss/full.scss template/css/style.css'
+nmap <Leader>ms :!sass template/scss/full.scss template/css/style.css<CR>
+nmap <Leader>mb :!hovercraft -t template irp/irp.rst ./build/irp<CR>
+nmap <Leader>md :!cp -r ./build/* ../Presentations-pages/; pushd ../Presentations-pages; git commit -a -m "EverVim HoverCraft Update"; git push; popd;
