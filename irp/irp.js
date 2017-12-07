@@ -53,7 +53,7 @@ if (annyang) {
 
     annyang.addCommands(commands);
     annyang.addCallback('result', function(userSaid, commandText, phrases) {
-        console.log(userSaid);
+        console.log("SRE:: " + userSaid);
     });
 }
 
