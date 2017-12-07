@@ -1,45 +1,58 @@
-// Voice Control
-if (annyang) {
-    annyang.init();
-    var recognition = annyang.getSpeechRecognizer();
-    var final_transcript = '';
-    recognition.interimResults = true;
-    annyang.start();
+'use strict';
 
-    recognition.onresult = function(event) {
-        var interim_transcript = '';
-        final_transcript = '';
-        for (var i = event.resultIndex; i < event.results.length; ++i) {
-            if (event.results[i].isFinal) {
-                final_transcript += event.results[i][0].transcript;
-                console.log("final_transcript");
-                console.log(final_transcript);
-                annyang.trigger(final_transcript); //If the sentence is "final" for the Web Speech API, we can try to trigger the sentence
-            } else {
-                interim_transcript += event.results[i][0].transcript;
-                console.log("interim_transcript");
-                console.log(interim_transcript);
-            }
-        }
-        final_transcript = capitalize(final_transcript);
-        final_span.innerHTML = linebreak(final_transcript);
-        interim_span.innerHTML = linebreak(interim_transcript);
-    };
-    var commands = {
-        'next page': function() {
-            impress().next();
-        },
-        'previous page': function() {
-            impress().prev();
-        },
-        'timer start': function() {
-            TimerStart();
-        },
-        'testing voice': function() {
-            alert("Testing Passed");
-        }
-    };
+window.addEventListener('DOMContentLoaded', () => {
+    if (!isSupportedBrowser()) {
+        return alert('this browser is not supported');
+    }
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const speechRecognition = new SpeechRecognition;
+    speechRecognition.continuous = true;
+    speechRecognition.interimResults = true;
+    speechRecognition.lang = 'en-US';
+    window.speechRecognition = speechRecognition; // for debug
 
-    annyang.addCommands(commands);
-}
+    const dsr = document.getElementById('speech-result');
 
+    btn.addEventListener('click', () => {
+        speechRecognition.start();
+    });
+
+    speechRecognition.addEventListener('result', e => {
+        const results = [...e.results].map(([result]) => result);
+        results.forEach(result => {
+            dsr.textContent = result.transcript;
+        });
+        dsr.textContent = "";
+    });
+    speechRecognition.addEventListener('nomatch', e => {
+        console.log('nomatch', e);
+    });
+    speechRecognition.addEventListener('end', e => {
+        console.log('end', e);
+    });
+    speechRecognition.addEventListener('audiostart', e => {
+        console.log('audiostart', e);
+    });
+    speechRecognition.addEventListener('soundstart', e => {
+        console.log('soundstart', e);
+    });
+    speechRecognition.addEventListener('speechstart', e => {
+        console.log('speechstart', e);
+    });
+    speechRecognition.addEventListener('audioend', e => {
+        console.log('audiosend', e);
+    });
+    speechRecognition.addEventListener('soundend', e => {
+        console.log('soundend', e);
+    });
+    speechRecognition.addEventListener('speechend', e => {
+        console.log('speechend', e);
+    });
+    speechRecognition.addEventListener('error', e => {
+        console.error(e);
+    });
+
+    function isSupportedBrowser() {
+        return ('SpeechRecognition' in window) || ('webkitSpeechRecognition' in window);
+    }
+});
