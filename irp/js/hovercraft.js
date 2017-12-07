@@ -36,26 +36,3 @@ if (impressConsole) {
     }
 }
 
-
-// Voice Control
-if (annyang) {
-    var commands = {
-        'next page': function() {
-            impress().next();
-        },
-        'previous page': function() {
-            impress().prev();
-        },
-        'timer start': function() {
-            TimerStart();
-        },
-        'testing voice': function() {
-            alert("Testing Passed");
-        }
-    };
-
-    annyang.addCommands(commands);
-
-    annyang.start();
-}
-
