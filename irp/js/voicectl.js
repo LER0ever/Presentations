@@ -13,9 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const dsr = document.getElementById('speech-result');
 
-    btn.addEventListener('click', () => {
         speechRecognition.start();
-    });
 
     speechRecognition.addEventListener('result', e => {
         const results = [...e.results].map(([result]) => result);
