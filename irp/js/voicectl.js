@@ -19,6 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const results = [...e.results].map(([result]) => result);
         results.forEach(result => {
             dsr.textContent = result.transcript;
+            console.log(result);
         });
         dsr.textContent = "";
     });
