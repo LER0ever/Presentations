@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     speechRecognition.addEventListener('result', e => {
         //const results = [...e.results].map(([result]) => result);
         //dsr.innerHTML = results[0].transcript;
-        dsr.innerHTML = result[0][0].transcript;
+        dsr.innerHTML = e.results[0][0].transcript;
         //results.forEach(result => {
             //var str = result.transcript;
             //dsr.innerHTML = str;
