@@ -54,7 +54,7 @@ div#slide-number
     bottom: 1em;
     font-size: 5vh;
     position: absolute;
-    right: 2.5em;
+    right: 1.5em;
     text-align: right;
 }
 
@@ -63,6 +63,6 @@ div#speech-result
     bottom: 1em;
     font-size: 3vh;
     position: absolute;
-    right: 6.5em;
+    right: 4.5em;
     text-align: right;
 }
