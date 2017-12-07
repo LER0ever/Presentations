@@ -1,5 +1,6 @@
 // Voice Control
 if (annyang) {
+    annyang.init();
     var recognition = annyang.getSpeechRecognizer();
     var final_transcript = '';
     recognition.interimResults = true;
