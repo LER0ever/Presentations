@@ -217,45 +217,47 @@ Powered by hovercraft, EverVim, and Impress
 .. raw:: html
 
         <section class="bg-apple">
-          <h1 class="content-center">Problems</h1>
-          <h2>Longhand</h2>
-          <ul class="flexblock features">
-            <li>
-              <div>
-                <h2>
-                  Too Slow
-                </h2>
-                wasted time, incomplete notes.
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  Not Searchable
-                </h2>
-                Hard to locate previous notes.
-              </div>
-            </li>
-          </ul>
-          <h2>Typing</h2>
-          <ul class="flexblock features">
-            <li>
-              <div>
-                <h2>
-                  Distracting
-                </h2>
-                Surfing, chatting, gaming
-              </div>
-            </li>
-            <li>
-              <div>
-                <h2>
-                  Inefficient
-                </h2>
-                compared to writing notes
-              </div>
-            </li>
-          </ul>
+            <div class="wrap">
+              <h1 class="content-center">Problems</h1>
+              <h2>Longhand</h2>
+              <ul class="flexblock features">
+                <li>
+                  <div>
+                    <h2>
+                      Too Slow
+                    </h2>
+                    wasted time, incomplete notes.
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h2>
+                      Not Searchable
+                    </h2>
+                    Hard to locate previous notes.
+                  </div>
+                </li>
+              </ul>
+              <h2>Typing</h2>
+              <ul class="flexblock features">
+                <li>
+                  <div>
+                    <h2>
+                      Distracting
+                    </h2>
+                    Surfing, chatting, gaming
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h2>
+                      Inefficient
+                    </h2>
+                    compared to writing notes
+                  </div>
+                </li>
+              </ul>
+            </div>
         </section>
 
 ----
@@ -290,19 +292,24 @@ Powered by hovercraft, EverVim, and Impress
 
 ----
 
+:data-x: r-1000
+:data-y: r-2000
+:data-z: r-6000
+:data-rotate: r0
+
+Selective Filtering
+===================
+
+----
+
 :data-x: r0
 :data-y: r-800
 :data-z: r-3000
 :data-rotate: r0
 
-*d.2*  Possible Research Questions
-====================================
-
-* Are people actually more engaged in communication with newly adopted technology
-  ?
-
-* How to prevent personal privacy leak with brain-computer interface?
-  (possibly too bland)
+.. image:: images/solution-preview.png
+   :alt: solution
+   :align: center
 
 ----
 
@@ -341,8 +348,10 @@ share the same culture and who do not.
 :data-rotate-x: r0
 :data-scale: 0.1
 
-**Thank You!**
+Thank You!
 ===============
+
+.. image:: images/qa.png
 
 .. raw:: html
 
