@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     speechRecognition.addEventListener('end', e => {
         console.log('end', e);
+        speechRecognition.start();
     });
     speechRecognition.addEventListener('audiostart', e => {
         console.log('audiostart', e);
