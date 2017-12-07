@@ -14,6 +14,11 @@ if (annyang) {
                 impress().next();
             }
         },
+        'take notes': function() {
+            if (currentstep.id == "frontpage") {
+                impress().next();
+            }
+        }
         'united states': function() {
             if (currentstep.id == "background") {
                 impress().next();
