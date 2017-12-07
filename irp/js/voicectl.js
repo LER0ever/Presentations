@@ -22,10 +22,10 @@ window.addEventListener('DOMContentLoaded', () => {
             dsr.innerHTML = str;
             //console.log(result);
             switch (true) {
-             case /\bnext\bpage\b/.test(str):
+             case /next\bpage/.test(str):
                 impress().next();
                 break;
-             case /\bprevious\bpage\b/.test(str):
+             case /previous\bpage/.test(str):
                 impress().prev();
                 break;
               // no default
