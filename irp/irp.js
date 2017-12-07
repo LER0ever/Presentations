@@ -7,7 +7,14 @@ impressroot.addEventListener( "impress:stepenter", function(event) {
 });
 
 // Voice Control
-if (annyang) {
+if (window.speechRecognition) {
+    window.speechRecognition.addEventListener('result', e => {
+        const results = [...e.results].map(([result]) => result);
+        results.forEach(result => {
+            dsr.innerHTML = result.transcript;
+            console.log(result);
+        });
+    });
     var commands = {
         'first of all': function() {
             if (currentstep.id == "frontpage") {

@@ -18,8 +18,18 @@ window.addEventListener('DOMContentLoaded', () => {
     speechRecognition.addEventListener('result', e => {
         const results = [...e.results].map(([result]) => result);
         results.forEach(result => {
-            dsr.innerHTML = result.transcript;
-            console.log(result);
+            var str = result.transcript;
+            dsr.innerHTML = str;
+            //console.log(result);
+            switch (true) {
+             case /\bnext\bpage\b/.test(str):
+                impress().next();
+                break;
+             case /\bprevious\bpage\b/.test(str):
+                impress().prev();
+                break;
+              // no default
+            }
         });
         //dsr.textContent = "";
     });
