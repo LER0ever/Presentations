@@ -28,11 +28,14 @@ window.addEventListener('DOMContentLoaded', () => {
         for (var i = e.resultIndex; i < e.results.length; ++i) {
             if (e.results[i].isFinal) {
                 final_transcript += e.results[i][0].transcript;
+                if (final_transcript.length > 150) {
+                    final_transcript = final_transcript.substring(50);
+                }
             } else {
                 interim_transcript += e.results[i][0].transcript;
             }
         }
-        dsr.innerHTML = final_transcript + "[" + interim_transcript + "]"
+        dsr.innerHTML = final_transcript + interim_transcript;
         //final_transcript = capitalize(final_transcript);
         //final_span.innerHTML = linebreak(final_transcript);
         //interim_span.innerHTML = linebreak(interim_transcript);
