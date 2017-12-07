@@ -18,10 +18,10 @@ window.addEventListener('DOMContentLoaded', () => {
     speechRecognition.addEventListener('result', e => {
         const results = [...e.results].map(([result]) => result);
         results.forEach(result => {
-            dsr.textContent = result.transcript;
+            dsr.innerHTML = result.transcript;
             console.log(result);
         });
-        dsr.textContent = "";
+        //dsr.textContent = "";
     });
     speechRecognition.addEventListener('nomatch', e => {
         console.log('nomatch', e);
