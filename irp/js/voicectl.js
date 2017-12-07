@@ -15,15 +15,38 @@ window.addEventListener('DOMContentLoaded', () => {
 
     speechRecognition.start();
 
+    var final_transcript = '';
+    var interim_transcript = '';
+
     speechRecognition.addEventListener('result', e => {
-        const results = [...e.results].map(([result]) => result);
-        //dsr.innerHTML = results[0].transcript;
-        //dsr.innerHTML = e.results[0][0].transcript;
-        results.forEach(result => {
-            var str = result.transcript;
-            dsr.innerHTML = str;
-            //console.log(result);
-        });
+        interim_transcript = '';
+        if (typeof(e.results) == 'undefined') {
+            speechRecognition.stop();
+            speechRecognition.start();
+            return;
+        }
+        for (var i = e.resultIndex; i < e.results.length; ++i) {
+            if (e.results[i].isFinal) {
+                final_transcript += e.results[i][0].transcript;
+            } else {
+                interim_transcript += e.results[i][0].transcript;
+            }
+        }
+        dsr.innerHTML = final_transcript + "[" + interim_transcript + "]"
+        //final_transcript = capitalize(final_transcript);
+        //final_span.innerHTML = linebreak(final_transcript);
+        //interim_span.innerHTML = linebreak(interim_transcript);
+        //if (final_transcript || interim_transcript) {
+            //showButtons('inline-block');
+        //}
+        //const results = [...e.results].map(([result]) => result);
+        ////dsr.innerHTML = results[0].transcript;
+        ////dsr.innerHTML = e.results[0][0].transcript;
+        //results.forEach(result => {
+        //var str = result.transcript;
+        //dsr.innerHTML = str;
+        ////console.log(result);
+        //});
         //dsr.textContent = "";
     });
     speechRecognition.addEventListener('nomatch', e => {
