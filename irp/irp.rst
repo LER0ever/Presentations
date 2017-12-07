@@ -106,9 +106,6 @@ Powered by hovercraft, EverVim, and Impress
             <img src="./images/note-taking-longhand.jpg" alt="Note Taking Longhand">
             <figcaption>
               <a href="https://rongyi.blog" title="Longhand Note Taking">
-                <svg class="fa-camera">
-                  <use xlink:href="#fa-camera"></use>
-                </svg>
                 Longhand Note Taking
               </a>
             </figcaption>
@@ -144,9 +141,6 @@ Powered by hovercraft, EverVim, and Impress
             <img src="./images/note-taking-computer.jpg" alt="Note Taking computer">
             <figcaption>
               <a href="https://rongyi.blog" title="Computer Note Taking">
-                <svg class="fa-camera">
-                  <use xlink:href="#fa-camera"></use>
-                </svg>
                 Digital Note Taking
               </a>
             </figcaption>
