@@ -17,10 +17,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
     speechRecognition.addEventListener('result', e => {
         const results = [...e.results].map(([result]) => result);
-        results.forEach(result => {
-            dsr.innerHTML = result.transcript;
-            console.log(result);
-        });
+        dsr.innerHTML = results[0].transcript;
+        //results.forEach(result => {
+            //var str = result.transcript;
+            //dsr.innerHTML = str;
+            ////console.log(result);
+        //});
         //dsr.textContent = "";
     });
     speechRecognition.addEventListener('nomatch', e => {

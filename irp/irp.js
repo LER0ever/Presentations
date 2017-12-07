@@ -1,13 +1,25 @@
 // Get Current Slide
-var currentstep
+var currentstep;
+var str;
 var impressroot = document.getElementById("impress");
 impressroot.addEventListener( "impress:stepenter", function(event) {
     currentstep = event.target;
     console.log("Entered Slide '" + currentstep.id + "'");
 });
 
+function stf(teststr) {
+    if (str.indexOf(teststr) != -1) return true;
+    return false;
+}
+
+
 // Voice Control
-if (annyang) {
+if (window.speechRecognition) {
+    window.speechRecognition.addEventListener('result', e => {
+        const results = [...e.results].map(([result]) => result);
+        results.forEach(result => {
+        });
+    });
     var commands = {
         'first of all': function() {
             if (currentstep.id == "frontpage") {
