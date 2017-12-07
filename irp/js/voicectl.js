@@ -16,14 +16,14 @@ window.addEventListener('DOMContentLoaded', () => {
     speechRecognition.start();
 
     speechRecognition.addEventListener('result', e => {
-        //const results = [...e.results].map(([result]) => result);
+        const results = [...e.results].map(([result]) => result);
         //dsr.innerHTML = results[0].transcript;
-        dsr.innerHTML = e.results[0][0].transcript;
-        //results.forEach(result => {
-            //var str = result.transcript;
-            //dsr.innerHTML = str;
-            ////console.log(result);
-        //});
+        //dsr.innerHTML = e.results[0][0].transcript;
+        results.forEach(result => {
+            var str = result.transcript;
+            dsr.innerHTML = str;
+            //console.log(result);
+        });
         //dsr.textContent = "";
     });
     speechRecognition.addEventListener('nomatch', e => {
