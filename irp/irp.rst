@@ -47,7 +47,7 @@ Powered by hovercraft, EverVim, and Impress
 
 .. note::
 
-    Background [united states]
+    Some Backgrounds on this topic, here in [united states]
 
 ----
 
@@ -58,7 +58,7 @@ Powered by hovercraft, EverVim, and Impress
 :data-z: r3000
 :id: bg-99
 
-..  raw:: html
+.. raw:: html
 
       <div class="cta">
         <div class="number">
@@ -285,9 +285,9 @@ Powered by hovercraft, EverVim, and Impress
                 <p>Filter out the unimportant, pick the part worth taking down</p>
               </li>
               <li>
-                <h2>Fraction of lecture spent on irrelevant things</h2>
+                <h2>Fraction of lecture paying attention to the professor</h2>
                 <p>
-                  Time spent on writing notes, surfing the web, or anything other than listening to the professor
+                  Time spent on writing notes, surfing the web, or anything other than listening to the professor are excluded
                 </p>
               </li>
               <li>
@@ -300,12 +300,43 @@ Powered by hovercraft, EverVim, and Impress
 ----
 
 :data-x: r-1000
-:data-y: r-2000
+:data-y: r-600
 :data-z: r-6000
 :data-rotate: r0
 
-Selective Filtering
-===================
+1. Selective Filtering
+========================
+Filter out the unimportant, pick the part worth taking down
+
+.. note::
+
+    A process in which students actively filtering out things that are less important 
+    and only write down whatever they think is worth writing down. So it's a choosing
+    process
+
+----
+
+:data-x: r0
+:data-y: r1000
+:data-z: r0
+
+2. Fraction of lecture paying attention to the professor
+==========================================================
+Time spent on writing notes, surfing the web, or anything other than listening to the professor are excluded
+
+.. note::
+
+    Taking notes also count as 
+
+----
+
+3. Amount of notes for later review
+====================================
+The more the better
+
+.. note::
+
+    This one is obvious, the more notes you've got, 
 
 ----
 
@@ -314,24 +345,89 @@ Selective Filtering
 :data-z: r-3000
 :data-rotate: r0
 
+.. raw:: html
+
+        <div class="wrap">
+            <div class="content-left">
+              <h1>Longhand Writing</h1>
+            </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+                <h4>
+                    <ul>
+                        <li>Selective Filtering</li>
+                        <li>Small portion of time spent on the actual lecture</li>
+                        <li>Some amount of non-searchable notes</li>
+                    </ul>
+                </h4>
+            </div>
+            <hr />
+            <!-- end .content-left -->
+            <div class="content-left">
+              <h1>Laptop Typing</h1>
+            </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+                <h4>
+                    <ul>
+                        <li>Mindless typing</li>
+                        <li>Considerable amount of time paying attention to the professor</li>
+                        <li>Detailed searchable notes</li>
+                    </ul>
+                </h4>
+            </div>
+            <!-- end .content-left -->
+        </div>
+
+----
+
+:data-x: r2000
+:data-y: r0
+:data-z: r0
+
+.. raw:: html
+
+    <div class="wrap">
+        <h4 class="text-landing">Other Modern Approaches</h4>
+        <hr />
+        <h2>$ OneNote - write digitally</h2>
+        <blockquote><h4>"only users who excelled at elementary school handwriting lessons will find the process automatic"</h4></blockquote>
+        <hr />
+        <h2>$ Livenotes - Collaborative Note Board</h2>
+        <h4>Students end up getting lower grades</h4>
+    </div>
+
+----
+
+:data-x: r-1000
+:data-y: r0
+:data-z: r-3000
+:data-rotate: r180
+:data-scale: 0.3
+
 .. image:: images/solution-preview.png
    :alt: solution
    :align: center
 
 ----
 
-:data-rotate: r180
-:data-scale: 0.3
+:data-x: r-450
+:data-y: r0
+:data-z: r0
+:data-rotate: r0
+:data-scale: 0.4
 
-*e.1*  A Computational Model of Culture-Specific Conversational Behavior
-=========================================================================
+.. raw:: html
 
-Research is conducted to study a model that simulates cultural differences
-and whether native speakers can tell the differences between simulations of
-different culture parameters. The results reveals that people are able to
-distinguish between models generated with difference culture parameters,
-suggesting that culture-specific behaviors is noticable for both people who
-share the same culture and who do not.
+    <div class="wrap">
+        <h3 class="content-left">
+            <ul>
+                <li>Selective Filtering</li>
+                <li>Fraction of time spent on professor's speech</li>
+                <li>Amount of notes for later review</li>
+            </ul>
+        </h3>
+    </div>
 
 ----
 
@@ -340,7 +436,7 @@ share the same culture and who do not.
 :data-rotate: r0
 :data-scale: 1
 
-*e.2*  Possible Research Questions
+Conclusion
 ======================================
 
 * Can a virtual agent that simulates the cultural difference help people
@@ -350,10 +446,10 @@ share the same culture and who do not.
 ----
 
 :data-x: 0
-:data-y: -3500
-:data-z: 0
-:data-rotate-x: r0
-:data-scale: 0.1
+:data-y: 1000
+:data-z: 2000
+:data-rotate: 180
+:data-scale: 0.8
 
 Thank You!
 ===============

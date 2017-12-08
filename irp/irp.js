@@ -18,6 +18,10 @@ if (window.speechRecognition) {
     window.speechRecognition.addEventListener('result', e => {
         const results = [...e.results].map(([result]) => result);
         results.forEach(result => {
+            str = result.transcript;
+            if (stf("first of all") && currentstep.id == "frontpage") {
+                impress().goto("background");
+            }
         });
     });
     var commands = {
