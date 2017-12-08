@@ -35,6 +35,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 interim_transcript += e.results[i][0].transcript;
             }
         }
+        if ((final_transcript + interim_transcript).length > 180) {
+            final_transcript = final_transcript.substring(50);
+        }
         dsr.innerHTML = final_transcript + interim_transcript;
         //final_transcript = capitalize(final_transcript);
         //final_span.innerHTML = linebreak(final_transcript);
