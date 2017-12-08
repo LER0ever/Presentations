@@ -4,6 +4,9 @@ window.addEventListener('DOMContentLoaded', () => {
     if (!isSupportedBrowser()) {
         return alert('this browser is not supported');
     }
+    if (window.frameElement) {
+        return;
+    }
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     const speechRecognition = new SpeechRecognition;
     speechRecognition.continuous = true;
