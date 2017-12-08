@@ -79,6 +79,8 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     speechRecognition.addEventListener('speechend', e => {
         console.log('speechend', e);
+        speechRecognition.stop();
+        speechRecognition.start();
     });
     speechRecognition.addEventListener('error', e => {
         console.error(e);
