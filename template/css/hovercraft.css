@@ -61,7 +61,12 @@ div#slide-number
 div#speech-result
 {
     bottom: 1em;
+    display: inline-block;
+    word-wrap: break-word;
     font-size: 3vh;
+    line-height: 4vh;
+    max-height: 8vh;
+    overflow: hidden;
     position: absolute;
     right: 4.5em;
     text-align: right;
