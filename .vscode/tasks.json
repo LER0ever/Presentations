@@ -6,11 +6,12 @@
         {
             "label": "Compile",
             "type": "shell",
-            "command": "hovercraft -t template ./irp/irp.rst ./build/irp",
+            "command": "hovercraft -t template-cn ./190809-dist-train/190809.rst ./build/190809",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Sass",
